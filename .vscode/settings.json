@@ -1,0 +1,5 @@
+{
+    "easycode.maxTokens": 8024,
+    "easycode.promptPrefix.writeCode": "/code:",
+    "easycode.userEmail": "ella.masharka@gmail.com"
+}
