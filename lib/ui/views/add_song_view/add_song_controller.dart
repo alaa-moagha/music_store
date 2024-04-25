@@ -25,7 +25,7 @@ class AddSongController extends BaseController {
           .then((value) {
         value.fold((l) {
           CustomToast.showMessage(
-              message: l, messageType: MessageType.REJECTED);
+              message: "failed", messageType: MessageType.REJECTED);
         }, (r) {
           CustomToast.showMessage(
               message: "Song Added Successfully",
