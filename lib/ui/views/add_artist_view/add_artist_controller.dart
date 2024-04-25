@@ -25,7 +25,7 @@ class AddArtistController extends BaseController {
           .then((value) {
         value.fold((l) {
           CustomToast.showMessage(
-              message: l, messageType: MessageType.REJECTED);
+              message: "failed", messageType: MessageType.REJECTED);
         }, (r) {
           CustomToast.showMessage(
               message: "Artist Added Successfully\n Artist ID: " + '${r.id}',
